@@ -17,4 +17,16 @@ Display | 1080 x 1920 pixels, 5.2" LTPS IPS
 Rear Camera  | 12 MP (f/2.0, 1.4µm, PDAF, dual pixel)
 Front Camera | 8 MP (f/2.2, 1.12µm, no AF)
 
-![Motorola X4](https://cdn2.gsmarena.com/vv/pics/motorola/motorola-moto-x4-2.jpg "Motorola X4")
+git clone https://github.com/erfanoabdi/android_device_motorola_sdm660-common -b lineage-15.1 device/motorola/sdm660-common
+
+git clone https://github.com/erfanoabdi/android_device_motorola_payton -b lineage-15.1 device/motorola/payton
+
+git clone https://github.com/erfanoabdi/proprietary_vendor_motorola_sdm660-common -b lineage-15.1 vendor/motorola/sdm660-common
+
+git clone https://github.com/erfanoabdi/proprietary_vendor_motorola_payton -b lineage-15.1 vendor/motorola/payton
+
+git clone https://github.com/munchycool/android_kernel_motorola_msm8998 -b lineage-15.1 kernel/motorola/msm8998
+
+git clone https://github.com/LineageOS/android_external_bson -b lineage-15.1 external/bson
+
+git clone https://github.com/LineageOS/android_packages_resources_devicesettings -b lineage-15.1 packages/resources/devicesettings
