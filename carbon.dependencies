@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "android_device_motorola_sdm660-common",
+    "target_path": "device/motorola/sdm660-common"
+  },
+  {
+    "repository": "https://github.com/LineageOS/android_external_bson",
+    "target_path": "external/bson"
+  },
+  {
+    "repository": "https://github.com/LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
+  }
+]
