@@ -31,10 +31,4 @@ git clone https://github.com/LineageOS/android_external_bson -b lineage-15.1 ext
 
 git clone https://github.com/LineageOS/android_packages_resources_devicesettings -b lineage-15.1 packages/resources/devicesettings
 
-git clone https://github.com/munchycool/carbon_android_hardware_qcom_bootctrl -b cr-6.1 hardware/qcom/bootctrl
-
 git clone https://github.com/LineageOS/android_external_json-c -b cr-6.1 external/json-c
-
-cherry-pick or manually do this 
-
-https://github.com/munchycool/carbon_android_build_make/commit/02f616ceaf700aa822b957c97ab0bf352ba8e08f
