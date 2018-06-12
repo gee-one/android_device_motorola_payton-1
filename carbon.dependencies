@@ -10,5 +10,9 @@
   {
     "repository": "https://github.com/LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings"
+  },
+  {
+    "repository": "https://github.com/LineageOS/android_external_json-c",
+    "target_path": "external/json-c"
   }
 ]
