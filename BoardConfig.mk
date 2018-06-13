@@ -27,6 +27,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_payton_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.veritymode=eio
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x04000000
