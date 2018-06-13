@@ -31,4 +31,4 @@ git clone https://github.com/LineageOS/android_external_bson -b lineage-15.1 ext
 
 git clone https://github.com/LineageOS/android_packages_resources_devicesettings -b lineage-15.1 packages/resources/devicesettings
 
-git clone https://github.com/LineageOS/android_external_json-c -b cr-6.1 external/json-c
+git clone https://github.com/LineageOS/android_external_json-c -b lineage-15.1 external/json-c
