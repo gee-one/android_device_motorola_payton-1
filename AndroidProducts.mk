@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_payton.mk
+    $(LOCAL_DIR)/du.mk

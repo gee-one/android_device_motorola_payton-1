@@ -14,11 +14,8 @@
 # limitations under the License.
 #
 
-# Inherit Carbon GSM telephony parts
-$(call inherit-product, vendor/carbon/config/gsm.mk)
-
-# Inherit Carbon product configuration
-$(call inherit-product, vendor/carbon/config/common.mk)
+# StayDirty
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -71,7 +68,7 @@ endif
 
 # Device identifiers
 PRODUCT_DEVICE := payton
-PRODUCT_NAME := carbon_payton
+PRODUCT_NAME := du_payton
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto X4
 PRODUCT_MANUFACTURER := Motorola

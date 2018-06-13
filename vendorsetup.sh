@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo carbon_payton-eng
+add_lunch_combo du_payton-eng
